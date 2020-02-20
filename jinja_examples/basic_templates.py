@@ -13,8 +13,7 @@ def for_example(iterable=None):
     t = Template("""
 My favorite numbers:
 {% for n in array %}
-{{ n }}
-{% endfor %}
+{{ n }}{% endfor %}
 """
     )
 
